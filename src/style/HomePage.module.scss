@@ -1,0 +1,37 @@
+.homePage {
+  display: block;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    color: #333;
+  }
+  .bookshelfButton {
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    background-color: #28a745;
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    &:hover {
+      background-color: #218838;
+    }
+  }
+}
+.title {
+  color: black;
+  // padding-left: 15px;
+  
+}
+.nav {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding: 20px 50px 20px 50px;
+}
+.s{
+  display: flex;
+  align-items: center;
+  align-items: center;
+  justify-content: center;
+}
